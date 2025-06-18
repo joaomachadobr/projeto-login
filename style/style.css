@@ -5,3 +5,46 @@
     verde: #49a09d
     lilas: #5f2c82
 */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 576px;
+    background-color: aqua;
+}
+
+#image {
+    background: url(../images/pexels-mccutcheon-1566909.jpg);
+    width: 400px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: block;
+}
+
+#form > h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+#form > p {
+    padding: 20px;
+}
+
+#username {
+    margin: 10px;
+}
+
+#butlo {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: red;
+    background-color: blueviolet;
+    display: block;
+    margin: auto;
+}
