@@ -16,6 +16,7 @@ grandes telas acima de 1200px
     
     section#login {
         width: 80vw;
+        height: 350px;
     }
 
     section#login > div#image {
@@ -32,6 +33,11 @@ grandes telas acima de 1200px
 
     form > div.campo {
         text-align: center;
+    }
+
+    section#login > div#form > p {
+    font-size: 1em;
+    margin: 20px 0px;
     }
 
 }
@@ -59,9 +65,11 @@ grandes telas acima de 1200px
 
     section#login > div#form > p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
 
     section#login > div#form > h1 {
         font-size: 2em;
+        margin-top: 50px;
     }
 }
